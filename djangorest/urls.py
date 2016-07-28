@@ -16,5 +16,5 @@ urlpatterns = [
 ]
 
 urlpatterns = [
-    url(r'^', include('snippets.urls')),
+    url(r'^snippets', include('snippets.urls')),
 ]
